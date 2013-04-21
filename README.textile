@@ -1,0 +1,5 @@
+h1. Soluvas Karma
+
+1. `org.soluvas.abuse` : Abuse, spam, fraud, phishing, SQL injection, script injection detection. Can work with soluvas.karma to add infraction points. Drools based. Can detect multiple login/abuse attempts in short period of time. Can proactively block attempts using soluvas.gate, i.e. after several login/abuse attempts, further attempts will be blocked for X duration. Work with metrics to monitor amount of abuse.
+2. `org.soluvas.karma` : Reward & infraction points. Drools based.
+3. `org.soluvas.gate` : Allow or disallow operation based on a realtime state, with expiration. For example posting a comment is disabled for 30 seconds. Drools based. Work with metrics to monitor amount of activated gates.
